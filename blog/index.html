@@ -42,11 +42,11 @@
             function checkAnswer(){
                 sha256(document.getElementById('user_answer').value).then((hash) => {
                     if(hash === 'd95fa4df113ee0f7a0f4de08ca821881cc7d5e4633cea71c80e70350d9df7d48') {
-                        document.getElementById('result').textContent = '正解';
+                        document.getElementById('result').textContent = 'だよね！';
                         document.cookie = 'yuki=True; path=/; max-age=604800';
                         location.replace('/');
                     } else {
-                        document.getElementById('result').textContent = '不正解'
+                        document.getElementById('result').textContent = '('ω')'
                     }
                 });
             }
