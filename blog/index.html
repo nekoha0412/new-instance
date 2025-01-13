@@ -42,7 +42,7 @@
             function checkAnswer(){
                 sha256(document.getElementById('user_answer').value).then((hash) => {
                     if(hash === 'd95fa4df113ee0f7a0f4de08ca821881cc7d5e4633cea71c80e70350d9df7d48') {
-                        document.getElementById('result').textContent = 'だよね！';
+                        document.getElementById('result').textContent = '猫は神';
                         document.cookie = 'yuki=True; path=/; max-age=604800';
                         location.replace('/');
                     } else {
@@ -57,7 +57,7 @@
         <header>
             <nav>
                 <ul>
-                    <li style="color: white;">猫国最強伝説 創猫国記</li>
+                    <li style="color: white;">猫国最強伝説 創国記</li>
                 </ul>
             </nav>
         </header>
