@@ -23,4 +23,5 @@ Render以外でのdeployに必要（あった方が良い）ファイルやデ�
 <a href="https://render.com/deploy?repo=https://github.com/LunaKamituki/new-instance.git">
  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"><br>
 </a>
+<br>
 使用頻度が高い(であろう)Renderしかデプロイボタン入れてません(
