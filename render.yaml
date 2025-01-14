@@ -1,7 +1,7 @@
 # Exported from Render on 2025-01-14T21:50:08Z
 services:
 - type: web
-  name: new-instance-2
+  name: new-instance
   runtime: python
   repo: https://github.com/nekoha0412/new-instance
   plan: free
